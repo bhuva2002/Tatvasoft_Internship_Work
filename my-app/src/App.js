@@ -14,7 +14,7 @@ const App = () => (
   <>
     <ThemeProvider theme={theme}>
 
-    <img src={`${process.env.REACT_APP_HOSTED_URL}logo192.png`} alt="App Logo" />
+    {/* <img src={`${process.env.REACT_APP_HOSTED_URL}logo192.png`} alt="App Logo" /> */}
     <BrowserRouter>
       <div 
         // style={{
